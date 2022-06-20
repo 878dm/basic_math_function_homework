@@ -2,7 +2,8 @@
 # Create function argument a.
 # Return the value of a.
 # Round the result to 2 decimal places.
-def main(a):
-    return a*2
 
-print(main(8))
+def main(a):
+    return round(a,2)
+
+print(main(8.65565458))
